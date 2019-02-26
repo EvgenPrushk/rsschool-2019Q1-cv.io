@@ -1,4 +1,5 @@
 # Evgen Prushak #
+![Alt-текст](./img/MyPhoto.png "My photo")
 ## Contacts
 ***
 * e-mail: ogmprushak@mail.ru
