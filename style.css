@@ -36,14 +36,14 @@ header {
     height: 400px;
 }
 
-header .MyPhoto {
+.header__photo {
     height: 100%;
     background-color: rgb(194, 184, 184);
     flex: 2;
     border: 1px solid black;
 }
 
-header .MyPhoto img {
+ .header__img {
     border-radius: 30%;
     display: block;
     margin: 0 auto;
@@ -51,7 +51,7 @@ header .MyPhoto img {
 
 }
 
-.name-header {
+.header-name {
     height: 100%;
     background-color: rgb(194, 184, 184);
     flex: 2;
@@ -61,14 +61,14 @@ header .MyPhoto img {
 }
 
 
-header .FullName {
+.fullname {
 
     height: 100%;
     background-color: rgb(194, 184, 184);
 
 }
 
-header #LastName {
+ .lastname {
 
     font-size: 30px;
     line-height: 50px;
@@ -76,21 +76,21 @@ header #LastName {
     padding-left: 10px;
 }
 
-header #FirsName {
+ .firsname {
     font-size: 30px;
     line-height: 50px;
     text-transform: uppercase;
     padding-left: 10px;
 }
 
-header #MiddleName {
+.middlename {
     font-size: 30px;
     line-height: 50px;
     text-transform: uppercase;
     padding-left: 10px;
 }
 
-header #Position {
+ .position {
     font-size: 30px;
     line-height: 50px;
     text-transform: uppercase;
