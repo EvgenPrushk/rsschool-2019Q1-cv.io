@@ -10,25 +10,25 @@
 
   <body>
     <header class="header">
-      <span>
-        <h1 class="header__text">Resume</h1>
-      </span>
+      <div class="resume">
+        <h1 class="resume__text">Resume</h1>
+      </div>
 
-      <div class="header__photo">
+      <div class="header photo">
         <img
-          class="header__img"
+          class="photo__img"
           src="./img/MyPhoto.png"
           alt="MyPhoto"
           width="300px"
           height="300px"
         />
       </div>
-      <div class="header-name">
-        <div class="fullname">
-          <span class="lastname">Prushak</span><br />
-          <span class="firsname">Evgen</span><br />
-          <span class="middlename">Vladimirovish</span><br />
-          <span class="position">Javascript Developer</span>
+      <div class="header info">
+        <div class="info wrap">
+          <div class="info__text">Prushak</div>
+          <div class="info__text">Evgen</div>
+          <div class="info__text">Vladimirovish</div>
+          <div class="info__text">Javascript Developer</div>
         </div>
       </div>
     </header>
@@ -117,45 +117,28 @@
     </section>
 
     <footer class="footer">
-      <div class="footer__content">
-        <div class="small-contact">
-          <i class="small-contact__icon fas fa-mobile"></i
-          ><span class="small-contact__text">+375447960224</span>
-        </div>
-
-        <div class="small-contact">
-          <i class="small-contact__icon fas fa-mobile"></i
-          ><span class="small-contact__text">+375292222273</span>
-        </div>
-
-        <div class="small-contact">
-          <i class="small-contact__icon fas fa-envelope"></i
-          ><span class="small-contact__text">ogmprushak@mail.ru</span>
-        </div>
-
-        <div class="small-contact">
-          <i class="small-contact__icon fas fa-map-marker-alt"></i
-          ><span class="small-contact__text">Есенина, 39-204</span>
-        </div>
-      </div>
-      <div class="footer__wrap">
-        <div class="footer__contact">
-          <div class="footer__contact-title _black">Minsk</div>
-          <div class="footer__contact-info _icon _adress">
-            <div class="footer__text">Ecenina 39-204</div>
-          </div>
-          <div class="footer__info _icon _phone">
-            <div class="footer__text zphone" href="tel:+375292222273">
-              +375 (29) 222-22-73            </div>
-            <div class="footer__text zphone" href="tel:+375292222273">
-              +375 (44) 796-02-24            </div>
-            <div class="footer__contact-info _icon _email">
-                <div class="footer__text" href="mailto:ogmprushak@mail.ru">
-                    ogmprushak@mail.ru</div>
+        <div class="wrap">
+                <div class="footer__content">
+                    <div class="footer__item">
+                        <div class="small-contact"><i class="small-contact__icon fas fa-mobile">                          
+                        </i><span class="small-contact__text">+375447960244</span>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="small-contact"><i class="small-contact__icon fas fa-mobile"></i><span class="small-contact__text">+375292222273</span>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="small-contact"><i class="small-contact__icon fas fa-envelope"></i><span class="small-contact__text">ogmprushak@mail.ru</span>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="small-contact"><i class="small-contact__icon fas fa-map-marker-alt"></i><span class="small-contact__text">Есенина,
+                                39-204</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+            </footer>
   </body>
 </html>
