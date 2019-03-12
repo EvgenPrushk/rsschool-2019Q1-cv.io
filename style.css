@@ -23,12 +23,11 @@ a {
     text-decoration: none;
     color: black;
 }
-
-.main {
+.header__text {
     max-width: 1024px;
     margin: 0 auto;
-
 }
+
 
 header {
     width: 100%;
@@ -47,7 +46,7 @@ header {
     border-radius: 30%;
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
@@ -98,9 +97,21 @@ header {
 }
 
 .scills {
-    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 
 }
+.scills__list {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+.scills__text {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
 
 .footer {
     position: relative;
